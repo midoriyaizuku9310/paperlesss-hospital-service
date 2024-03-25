@@ -1,0 +1,192 @@
+/* /* h3 {
+  font-family: Calibri;
+  font-size: 25pt;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(134, 188, 36);
+  text-align: center;
+  text-decoration: underline;
+}
+
+table {
+  font-family: Calibri;
+  color: white;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(134, 188, 36);
+  border-collapse: collapse;
+  border: 2px solid navy;
+}
+table.inner {
+  border: 0px;
+} */
+/* 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+h3 {
+    color: #008080;
+    text-align: center;
+}
+
+form {
+    border: 1px solid #008080;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    color: #008080;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #008080;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+ */ 
+
+/* 
+ .containerl {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: calc(100vh - 60px);
+  background-color: #fff;
+  width: 100%;
+  
+}
+
+h3 {
+  color: #006666; 
+  text-align: center;
+}
+
+form {
+  border: 1px solid #008080;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  width: 100%;
+}
+
+table {
+  margin: auto;
+  background-color: white;
+  width: 100%;
+}
+
+td {
+  color: #008080;
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #008080;
+  border-radius: 4px;
+  background-color:white;
+}
+
+button {
+  background-color: #0b0b0b;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #4CAF50;
+}
+.e{
+  padding-top: 50px;
+} */
+
+.containerl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px); /* assuming your navbar height is 60px, adjust accordingly */
+  background-color: #fff;
+  width:100%
+}
+
+h3 {
+  color: #006666; /* dark shade of teal */
+  text-align: center;
+}
+
+.forml {
+  border: 1px solid #d5dfdf;
+  padding: 5px;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  color: #008080;
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #008080;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4CAF50;
+}
+

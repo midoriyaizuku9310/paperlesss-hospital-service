@@ -1,0 +1,47 @@
+.doctorlogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    
+    
+}
+.d{
+    padding-top: 130px;
+}
+.doctorlogin h2 {
+    color: black;
+    font-weight: 300;
+}
+
+.doctorlogin input[type="email"], .doctorlogin input[type="password"] {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    
+}
+
+.doctorlogin button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(98, 96, 96);
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.doctorlogin button:hover {
+    background-color: #ccc;
+}

@@ -1,0 +1,47 @@
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+footer nav ul li {
+    margin-left: 20px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    color: #ccc;
+}
+.welcome{
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 90px;
+    color: rgb(215, 210, 210);
+}
+.tagline{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 90px;
+    color: white;
+
+}

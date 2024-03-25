@@ -1,0 +1,101 @@
+ /* .appointments-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: black;
+  }
+ 
+  .form-group {
+    margin-bottom: 20px;
+  }
+ 
+  label {
+    display: block;
+    font-weight: bold;
+  }
+ 
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:white
+  }
+ 
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+ 
+  .submit-button:hover {
+    background-color: #0056b3;
+  } 
+
+
+  */
+  .b{
+    padding-top: 130px;
+  }
+  .a{
+    padding-top: 20px;
+  }
+  body {
+    
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.dp{
+  background-color: white;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}

@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Adjust this according to the height of your navbar */
+    
+}
+
+.editdetails {
+    font-family: Arial, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.edit {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+table {
+    width: 100%;
+    color: rgb(15, 15, 15);
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(250, 249, 249);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
