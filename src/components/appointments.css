@@ -73,7 +73,7 @@ label {
     margin-bottom: 5px;
 }
 .dp{
-  background-color: white;
+  background-color:black
 }
 select {
     width: 100%;
@@ -98,4 +98,8 @@ button {
 
 button:hover {
     background-color: #ccc;
+}
+
+.DatePicker{
+color:"black"
 }

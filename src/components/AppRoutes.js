@@ -42,6 +42,7 @@ const AppRoutes = () => {
             <Route path="testpayment" element={<TestPayment />} />
             <Route path="AdminEdit/:userId" element={<AdminEdit />} />
             <Route path="message/:email" element={<Message />} />
+  
             <Route
               exact
               path="edituserdetails/:email"

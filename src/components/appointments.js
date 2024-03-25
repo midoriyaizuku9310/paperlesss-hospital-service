@@ -170,6 +170,7 @@ const Appointments = () => {
                     filterDate={filterDates}
                     className='dp'
                     placeholderText='Select a Date'
+                    style={{backgroundColor:"black", color:"black"}}
                 />
             </div>
             <div>
@@ -204,7 +205,7 @@ const Appointments = () => {
         </div>
       )}
     </div>
-            <button type="submit">SUBMIT</button>
+            <button type="submit" style={{backgroundColor:"black", color:"white"}}>SUBMIT</button>
         </form>
         </div>
     );

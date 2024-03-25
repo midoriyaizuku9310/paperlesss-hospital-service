@@ -8,7 +8,7 @@ import { db } from "../services/FbServices";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../services/FbServices";
 import { userDetailsRef } from "../services/firestore.collection";
-
+import { useNavigate } from "react-router-dom";
 const Registration = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -20,6 +20,7 @@ const Registration = () => {
   const [address, setAddress] = useState();
   const [guardian, setGuardian] = useState();
   const [registered, setRegistered] = useState(false);
+  const navigate = useNavigate()
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -36,6 +37,7 @@ const Registration = () => {
     })
       .then(() => {
         console.log("Value stored successfully!");
+        navigate("/")
       })
       .catch((error) => {
         console.error("Error storing value:", error);

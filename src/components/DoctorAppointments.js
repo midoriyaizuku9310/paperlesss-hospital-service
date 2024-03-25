@@ -45,7 +45,7 @@ const DoctorAppointments = ()=>{
                             <td>{appointment.date.slice(0,15)}</td>
                             <td>{appointment.timeSlot}</td>
                             <td>{appointment.email}</td>
-                            <td><button className="btn btn-info" onClick={() => (window.location.href = `/message/${appointment.email}`)}>click</button></td>
+                            <td><button className="btn btn-info" onClick={() => (window.location.href = `/message/${appointment.email}`)}>Validate</button></td>
                         </tr>
                     ))}
                 </tbody>

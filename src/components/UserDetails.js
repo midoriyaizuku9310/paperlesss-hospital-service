@@ -5,6 +5,7 @@ import { userDetailsRef } from "../services/firestore.collection";
 import { FaTrash } from "react-icons/fa";
 import EditUserDetails from "./EditUserDetails";
 import "./UserDetails.css";
+import { Link } from "react-router-dom";
 
 export default function UserDetails() {
     const [userDetails, setUserDetails] = useState([]);
@@ -77,7 +78,7 @@ export default function UserDetails() {
                 <table align="center">
                     <thead>
                         <tr>
-                            <th>Id</th>
+                            
                             <th>Name</th>
                             <th>Email</th>
                             <th>Gender</th>
@@ -90,7 +91,7 @@ export default function UserDetails() {
                     <tbody>
                         {userDetails.map((user) => (
                             <tr key={user.id}>
-                                <td>{user.id}</td>
+                                {/* <td>{user.id}</td> */}
                                 <td>{user.data.name}</td>
                                 <td>{user.data.email}</td>
                                 <td>{user.data.gender}</td>
@@ -99,7 +100,9 @@ export default function UserDetails() {
                                 <td>{user.data.address}</td>
                                 <td>{user.data.guardian}</td>
                                 {/* <td>
-                  <button onClick={() => EditUserDetails()}>Update</button>
+                  <button>
+                    <Link to={`/EditUserDetails/${user.id}`}>Update</Link>
+                  </button>
                   <FaTrash onClick={() => onDelete(user.id)} />
                 </td> */}
                             </tr>

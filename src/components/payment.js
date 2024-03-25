@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import "./payment.css"
+import emailjs from 'emailjs-com'
 const PaymentPage = () => {
     const navigate = useNavigate();
     const date = localStorage.getItem('date')
@@ -8,11 +9,15 @@ const PaymentPage = () => {
     const problem = localStorage.getItem('problem')
     const doctor = localStorage.getItem('doctor')
     const email = localStorage.getItem('email')
+    const form = document.createElement('form');
+    form.setAttribute('name', email);
+    form.setAttribute('time', timeSlot);
+    form.setAttribute('date', date);
+    form.setAttribute('date', date);
     console.log(date)
     console.log(timeSlot)
     console.log(problem)
     const handlePaymentComplete = (e) => {
-
         e.preventDefault();
         emailjs.sendForm('service_b7qwedb', 'template_2in9xwa', e.target, 'JPg-IWqyJplqZVK5h')
             .then(res => {
@@ -50,7 +55,7 @@ const PaymentPage = () => {
 
     return (
         <div>
-
+            <form onSubmit={handlePaymentComplete} >
             <div className="container p-0">
                 <div className="card px-4">
                     <p className="h8 py-3">Payment Details</p>
@@ -79,17 +84,16 @@ const PaymentPage = () => {
                                 <input className="form-control mb-3 pt-2 " type="password" placeholder="***" />
                             </div>
                         </div>
+                        <div>
+                            <input hidden type="text" name="email" value={localStorage.getItem('email')} />
+                        </div>
                         <div className="col-12">
-                            <div className="btn btn-primary mb-3">
-
-                                <span className="ps-3" onClick={handlePaymentComplete}>Complete Payment</span>
-                                <span className="fas fa-arrow-right"></span>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <input type="submit" />
+            </form>
         </div>
     );
 };

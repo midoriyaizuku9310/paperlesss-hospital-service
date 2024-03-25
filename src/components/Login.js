@@ -53,7 +53,7 @@ const Login = () => {
                 <td style={{fontWeight:"bold"}}>EMAIL</td>
                 <td>
                   <input
-                  style={{backgroundColor:"whitesmoke", width:"100%"}}
+                  style={{backgroundColor:"whitesmoke", color:"black" ,width:"100%"}}
                     type="email"
                     placeholder="Enter Email"
                     value={email}
@@ -65,7 +65,7 @@ const Login = () => {
                 <td style={{fontWeight:"bold"}}>PASSWORD</td>
                 <td>
                   <input
-                  style={{backgroundColor:"whitesmoke", width:"100%"}}
+                  style={{backgroundColor:"whitesmoke",color:"black", width:"100%"}}
                     type="password"
                     placeholder="Password"
                     value={password}
